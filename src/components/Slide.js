@@ -1,6 +1,5 @@
 import React from "react"
 import '../App.css';
-import 'react-slideshow-image/dist/styles.css'
 import img from "../img.jpg"
 
 function Slide() {
@@ -10,8 +9,8 @@ function Slide() {
         <h3>Colocation 4 pers.</h3> 
         <div style={{display: "flex", justifyContent: "center", padding:"5px"}}>
             <img src={img} style={{height: "40px",width: "40px", borderRadius: "100%"}}></img>
-            <div style={{display: "flex", flexDirection: "column", padding: "8px"}}>
-                <h5 style={{margin: "0px"}}>J-C L'Auberivière</h5>
+            <div style={{display: "flex", flexDirection: "column", paddingLeft: "10px"}}>
+                <h5 style={{margin: "0px", fontWeight: "lighter"}}>J-C L'Auberivière</h5>
                 <div style={{textAlign: "left", width: "10px"}}>
                     <span style={{fontSize: "10px", padding: "3px", border: "1px solid grey"}}>CDI</span>
                 </div>
@@ -20,8 +19,8 @@ function Slide() {
         </div>
         <div style={{display: "flex", justifyContent: "center", padding:"5px"}}>
             <img src={img} style={{height: "40px",width: "40px", borderRadius: "100%"}}></img>
-            <div style={{display: "flex", flexDirection: "column", padding: "8px"}}>
-                <h5 style={{margin: "0px"}}>J-C L'Auberivière</h5>
+            <div style={{display: "flex", flexDirection: "column", paddingLeft: "10px"}}>
+                <h5 style={{margin: "0px", fontWeight: "lighter"}}>J-C L'Auberivière</h5>
                 <div style={{textAlign: "left"}}>
                     <span style={{fontSize: "10px", padding: "3px", border: "1px solid grey"}}>Profession Libérale</span>
                 </div>
@@ -29,7 +28,7 @@ function Slide() {
             
         </div>
         
-        <h4 style={{margin: "0px"}}>Revenu mensuel moyen</h4>
+        <h4 style={{marginTop: "30px", marginBottom: "0px"}}>Revenu mensuel moyen</h4>
         <div style={{display: "flex", justifyContent: "space-evenly", marginBottom: "10px"}}>
         
         <div>
