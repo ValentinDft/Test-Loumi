@@ -5,12 +5,12 @@
   border-radius: 30px;
 	text-align: center;
 	height: 50%;
-  width: 30%;
-  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 32%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover{
-  box-shadow: 0 100px 100px rgba(0, 0, 0, 0.2), 0px 0px 100px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.2);
 }
 
 .footer_card{
