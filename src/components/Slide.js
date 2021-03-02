@@ -4,9 +4,10 @@ import img from "../img.jpg"
 
 function Slide() {
   return (
-    
-      <div className="card">
+    <div className="card">
         <h3>Colocation 4 pers.</h3> 
+
+        {/* Profil colocataire */}
         <div style={{display: "flex", justifyContent: "center", padding:"5px"}}>
             <img src={img} style={{height: "40px",width: "40px", borderRadius: "100%"}}></img>
             <div style={{display: "flex", flexDirection: "column", paddingLeft: "10px"}}>
@@ -17,6 +18,7 @@ function Slide() {
             </div>
             
         </div>
+
         <div style={{display: "flex", justifyContent: "center", padding:"5px"}}>
             <img src={img} style={{height: "40px",width: "40px", borderRadius: "100%"}}></img>
             <div style={{display: "flex", flexDirection: "column", paddingLeft: "10px"}}>
@@ -27,25 +29,28 @@ function Slide() {
             </div>
             
         </div>
-        
+    
+        {/* Revenu mensuel moyen */}
         <h4 style={{marginTop: "30px", marginBottom: "0px"}}>Revenu mensuel moyen</h4>
         <div style={{display: "flex", justifyContent: "space-evenly", marginBottom: "10px"}}>
+            <div>
+                <h6 style={{margin: "0px"}}>Candidats</h6>
+                <h5 style={{color: "#3393F3", margin: "0px"}}>5206 €</h5>
+            </div>
+            <div>
+                <h6 style={{margin: "0px"}}>Garants</h6>
+                <h5 style={{color: "#3393F3", margin: "0px"}}>6700 €</h5>
+            </div>
+        </div>
+
+        {/* Bouton voir plus */}
+        <button style={{backgroundColor: "#3393F3", borderRadius: "5px", width: "70%", height: "40px", color: "white", cursor: "pointer", border: "none", outline: "none"}}>Voir plus</button>
         
-        <div>
-            <h6 style={{margin: "0px"}}>Candidats</h6>
-            <h5 style={{color: "#3393F3", margin: "0px"}}>5206 €</h5>
-        </div>
-        <div>
-            <h6 style={{margin: "0px"}}>Garants</h6>
-            <h5 style={{color: "#3393F3", margin: "0px"}}>6700 €</h5>
-        </div>
-        
-        </div>
-        <button style={{backgroundColor: "#3393F3", borderRadius: "5px", width: "70%", height: "40px", color: "white", cursor: "pointer", border: "none"}}>Voir plus</button>
+        {/* Footer Card */}
         <div className="footer_card">
             <h6 style={{padding: "8px", color: "white", marginTop: "10px"}}>Visite du 13 Mars à 10h35</h6>
         </div>
-      </div>
+    </div>
     
   );
 }
